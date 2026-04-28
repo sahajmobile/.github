@@ -1,12 +1,9 @@
 <!-- ============== PREMIUM CUSTOM HERO ============== -->
 
-
-<!-- ============== GLOWING WORDMARK ============== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0ea5e9,100:6366f1&height=160&section=header&text=SAHAJ%20MOBILE&fontSize=72&fontColor=ffffff&fontAlignY=55&animation=twinkling" />
-=======
-
+  <img src="216649417-9f5b2417-92e7-4408-becd-f88aaae2c7f7.gif" alt="Sahaj Mobile" width="100%" />
 </p>
+<!-- ============== GLOWING WORDMARK ============== -->
 
 <!-- ============== TYPING TAGLINE ============== -->
 <p align="center">

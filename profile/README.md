@@ -1,6 +1,11 @@
-<!-- ============== HERO BANNER ============== -->
+<!-- ============== CINEMATIC HERO ============== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=220&section=header&text=Sahaj%20Mobile&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Recovery%20%E2%80%A2%20Sales%20%E2%80%A2%20Service%20%E2%80%A2%20Tools&descSize=18&descAlignY=60&animation=fadeIn" alt="Sahaj Mobile" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Sahaj Mobile MasterHead" width="100%" />
+</p>
+
+<!-- ============== GLOWING WORDMARK ============== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0ea5e9,100:6366f1&height=160&section=header&text=SAHAJ%20MOBILE&fontSize=72&fontColor=ffffff&fontAlignY=55&animation=twinkling" />
 </p>
 
 <!-- ============== TYPING TAGLINE ============== -->

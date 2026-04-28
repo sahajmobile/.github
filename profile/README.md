@@ -1,6 +1,6 @@
-<!-- ============== CINEMATIC HERO ============== -->
+<!-- ============== MASTERHEAD HERO ============== -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Sahaj Mobile MasterHead" width="100%" />
+  <img src="https://i.pinimg.com/originals/2f/f4/28/2ff428006f3ade5f10beac69372062ab.gif" alt="Sahaj Mobile MasterHead" width="100%" />
 </p>
 
 <!-- ============== GLOWING WORDMARK ============== -->
@@ -82,6 +82,7 @@ We design tools our own teams use every day — fast, opinionated, and built for
 ---
 
 ### 📈 GitHub Insights
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rimonok12&show_icons=true&theme=tokyonight" height="150" alt="stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rimonok12&layout=compact&theme=tokyonight" height="150" alt="top langs"/>
@@ -96,7 +97,6 @@ We design tools our own teams use every day — fast, opinionated, and built for
 </p>
 
 ---
-
 
 ### 🏆 What We Stand For
 

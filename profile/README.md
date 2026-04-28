@@ -76,27 +76,22 @@ We design tools our own teams use every day — fast, opinionated, and built for
 
 ---
 
-### � Pinned Repositories
-
+### 📈 GitHub Insights
 <p align="center">
-  <a href="https://github.com/sahajmobile/sm-Recovery">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=sm-Recovery&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
-  </a>
-  <a href="https://github.com/sahajmobile/sm-calculator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=sm-calculator&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=rimonok12&show_icons=true&theme=tokyonight" height="150" alt="stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rimonok12&layout=compact&theme=tokyonight" height="150" alt="top langs"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/sahajmobile/PhoneData-Checker">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=PhoneData-Checker&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
-  </a>
-  <a href="https://github.com/sahajmobile/homepage">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=homepage&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
-  </a>
+  <img src="https://streak-stats.demolab.com?user=rimonok12&theme=tokyonight" height="150" alt="streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rimonok12&theme=onedark&row=1&column=7" alt="trophies"/>
 </p>
 
 ---
+
 
 ### 🏆 What We Stand For
 

@@ -1,107 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" width="100%" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="100%" preserveAspectRatio="xMidYMid slice">
   <defs>
-    <!-- Deep night gradient -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#020617"/>
-      <stop offset="50%" stop-color="#0b1d3a"/>
+      <stop offset="0%"  stop-color="#000814"/>
+      <stop offset="40%" stop-color="#031838"/>
+      <stop offset="80%" stop-color="#0a0a23"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
-
-    <!-- Neon brand gradient -->
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#06b6d4"/>
-      <stop offset="50%" stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#6366f1"/>
+      <stop offset="0%"   stop-color="#22d3ee"/>
+      <stop offset="50%"  stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
-
-    <!-- Glow filter -->
+    <linearGradient id="neonV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="bigglow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="14" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="bigglow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <!-- Aurora blob -->
-    <radialGradient id="aurora1" cx="0.3" cy="0.3" r="0.7">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    <radialGradient id="aurora1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%"  stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="aurora2" cx="0.7" cy="0.7" r="0.7">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    <radialGradient id="aurora2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%"  stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%"  stop-color="#0ea5e9" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.7"/>
     </radialGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="1600" height="480" fill="url(#bg)"/>
+  <rect width="1600" height="520" fill="url(#bg)"/>
 
-  <!-- Animated aurora blobs -->
-  <circle cx="320" cy="180" r="380" fill="url(#aurora1)">
-    <animate attributeName="cx" values="320;1280;320" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="180;320;180" dur="11s" repeatCount="indefinite"/>
+  <circle cx="300" cy="160" r="420" fill="url(#aurora1)">
+    <animate attributeName="cx" values="300;1300;300" dur="22s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="160;380;160" dur="17s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1280" cy="320" r="420" fill="url(#aurora2)">
-    <animate attributeName="cx" values="1280;320;1280" dur="16s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="320;180;320" dur="13s" repeatCount="indefinite"/>
+  <circle cx="1300" cy="380" r="460" fill="url(#aurora2)">
+    <animate attributeName="cx" values="1300;300;1300" dur="26s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="380;160;380" dur="19s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="260" r="380" fill="url(#aurora3)">
+    <animate attributeName="cy" values="260;120;260" dur="14s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Grid floor -->
-  <g stroke="#0ea5e9" stroke-opacity="0.12" stroke-width="1">
-    <line x1="0" y1="380" x2="1600" y2="380"/>
-    <line x1="0" y1="410" x2="1600" y2="410"/>
-    <line x1="0" y1="440" x2="1600" y2="440"/>
-    <line x1="0" y1="470" x2="1600" y2="470"/>
-  </g>
-  <g stroke="#6366f1" stroke-opacity="0.10" stroke-width="1">
-    <line x1="100"  y1="360" x2="-200" y2="480"/>
-    <line x1="300"  y1="360" x2="200"  y2="480"/>
-    <line x1="500"  y1="360" x2="500"  y2="480"/>
-    <line x1="700"  y1="360" x2="750"  y2="480"/>
-    <line x1="900"  y1="360" x2="900"  y2="480"/>
-    <line x1="1100" y1="360" x2="1150" y2="480"/>
-    <line x1="1300" y1="360" x2="1450" y2="480"/>
-    <line x1="1500" y1="360" x2="1800" y2="480"/>
-  </g>
-
-  <!-- Twinkling stars -->
   <g fill="#ffffff">
-    <circle cx="120"  cy="80"  r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="260"  cy="140" r="1.0"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="440"  cy="60"  r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
-    <circle cx="640"  cy="110" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="820"  cy="40"  r="1.0"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1020" cy="120" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle cx="1220" cy="70"  r="1.2"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.2s" repeatCount="indefinite"/></circle>
-    <circle cx="1380" cy="150" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="1500" cy="90"  r="1.0"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="80"   cy="60"  r="1.2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="180"  cy="120" r="0.8"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="260"  cy="40"  r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="380"  cy="90"  r="0.9"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="500"  cy="50"  r="1.1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="640"  cy="110" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="760"  cy="40"  r="0.9"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="900"  cy="120" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="60"  r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="100" r="1.0"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1300" cy="50"  r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1420" cy="120" r="0.9"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.0s" repeatCount="indefinite"/></circle>
+    <circle cx="1520" cy="70"  r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.0s" repeatCount="indefinite"/></circle>
+    <circle cx="120"  cy="440" r="1.0"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="320"  cy="470" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="540"  cy="450" r="0.8"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.0s" repeatCount="indefinite"/></circle>
+    <circle cx="780"  cy="480" r="1.1"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1020" cy="460" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1240" cy="475" r="1.0"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1460" cy="450" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.0s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- Brand mark: glowing ring + S -->
-  <g transform="translate(800,210)">
-    <circle r="92" fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.45" filter="url(#bigglow)">
-      <animate attributeName="r" values="92;100;92" dur="3.5s" repeatCount="indefinite"/>
+  <g stroke="url(#neon)" stroke-width="1" opacity="0.18">
+    <line x1="0" y1="430" x2="1600" y2="430"/>
+    <line x1="0" y1="455" x2="1600" y2="455"/>
+    <line x1="0" y1="480" x2="1600" y2="480"/>
+    <line x1="0" y1="505" x2="1600" y2="505"/>
+  </g>
+
+  <g transform="translate(800,260)" fill="none" stroke="url(#neon)">
+    <ellipse rx="260" ry="62" stroke-width="1" opacity="0.35">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="32s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="220" ry="220" stroke-width="0.8" opacity="0.18"/>
+    <ellipse rx="320" ry="78" stroke-width="1" opacity="0.25" transform="rotate(20)">
+      <animateTransform attributeName="transform" type="rotate" from="20" to="380" dur="40s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle r="4" fill="#22d3ee" filter="url(#glow)">
+      <animateMotion dur="14s" repeatCount="indefinite"
+        path="M -260,0 a 260,62 0 1,1 520,0 a 260,62 0 1,1 -520,0"/>
     </circle>
-    <circle r="76" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.85" filter="url(#glow)"/>
-    <circle r="62" fill="#020617" stroke="url(#neon)" stroke-width="1.5"/>
-    <text x="0" y="22" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="url(#neon)" filter="url(#glow)">S</text>
+    <circle r="3" fill="#a78bfa" filter="url(#glow)">
+      <animateMotion dur="20s" repeatCount="indefinite"
+        path="M -320,0 a 320,78 0 1,0 640,0 a 320,78 0 1,0 -640,0"/>
+    </circle>
   </g>
 
-  <!-- Wordmark -->
-  <text x="800" y="360" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="14" fill="#ffffff" filter="url(#glow)">SAHAJ MOBILE</text>
+  <g transform="translate(800,260)" filter="url(#bigglow)">
+    <circle r="120" fill="url(#glass)" stroke="url(#neon)" stroke-width="1.5" opacity="0.9"/>
+  </g>
 
-  <!-- Tagline -->
-  <text x="800" y="408" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="6" fill="#7dd3fc" opacity="0.85">PREMIUM   ·   MOBILE-FIRST   ·   BUILT  TO  SHIP</text>
+  <g transform="translate(800,260)">
+    <polygon points="0,-92 80,-46 80,46 0,92 -80,46 -80,-46"
+             fill="#000814" stroke="url(#neon)" stroke-width="2.5" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="0,-72 62,-36 62,36 0,72 -62,36 -62,-36"
+             fill="none" stroke="url(#neonV)" stroke-width="1" opacity="0.6"/>
+    <text x="0" y="28" text-anchor="middle"
+          font-family="Inter, Helvetica, Arial, sans-serif"
+          font-size="92" font-weight="900"
+          fill="url(#neon)" filter="url(#glow)">S</text>
+  </g>
 
-  <!-- Side accent lines -->
-  <line x1="180" y1="240" x2="320" y2="240" stroke="url(#neon)" stroke-width="2" opacity="0.6"/>
-  <line x1="1280" y1="240" x2="1420" y2="240" stroke="url(#neon)" stroke-width="2" opacity="0.6"/>
+  <text x="800" y="412" text-anchor="middle"
+        font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="64" font-weight="800" letter-spacing="18"
+        fill="#ffffff" filter="url(#glow)">SAHAJ MOBILE</text>
+
+  <line x1="640" y1="430" x2="960" y2="430" stroke="url(#neon)" stroke-width="2" opacity="0.8" filter="url(#glow)"/>
+
+  <text x="800" y="468" text-anchor="middle"
+        font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="16" font-weight="500" letter-spacing="10"
+        fill="#7dd3fc" opacity="0.9">PREMIUM   ·   MOBILE-FIRST   ·   BUILT  TO  SHIP</text>
+
+  <g opacity="0.7">
+    <line x1="120" y1="260" x2="320" y2="260" stroke="url(#neon)" stroke-width="1.5"/>
+    <circle cx="320" cy="260" r="3" fill="#22d3ee" filter="url(#glow)"/>
+    <line x1="1280" y1="260" x2="1480" y2="260" stroke="url(#neon)" stroke-width="1.5"/>
+    <circle cx="1280" cy="260" r="3" fill="#8b5cf6" filter="url(#glow)"/>
+  </g>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="3" fill="#94a3b8">
+    <text x="60"   y="40">EST · 2024</text>
+    <text x="1540" y="40" text-anchor="end">ENGINEERING · STUDIO</text>
+    <text x="60"   y="500">SAHAJMOBILE.COM</text>
+    <text x="1540" y="500" text-anchor="end">PREMIUM SOFTWARE STUDIO</text>
+  </g>
+
+  <rect width="1600" height="520" fill="url(#vignette)"/>
 </svg>

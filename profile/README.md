@@ -1,0 +1,111 @@
+<!-- ============== HERO BANNER ============== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:6366f1&height=220&section=header&text=Sahaj%20Mobile&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Recovery%20%E2%80%A2%20Sales%20%E2%80%A2%20Service%20%E2%80%A2%20Tools&descSize=18&descAlignY=60&animation=fadeIn" alt="Sahaj Mobile" />
+</p>
+
+<!-- ============== TYPING TAGLINE ============== -->
+<p align="center">
+  <a href="https://sahajmobile.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=900&color=0EA5E9&center=true&vCenter=true&width=900&lines=Mobile-first+software+for+modern+retail;Recovery+%7C+Calculator+%7C+CRM+%7C+Phone+Data;Built+by+the+Sahaj+Mobile+engineering+team;Premium+UX.+Bullet-proof+ops." alt="typing intro" />
+  </a>
+</p>
+
+<!-- ============== QUICK CTA BUTTONS ============== -->
+<p align="center">
+  <a href="https://sahajmobile.com" target="_blank">
+    <img src="https://img.shields.io/badge/Website-sahajmobile.com-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://github.com/sahajmobile" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-sahajmobile-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:contact@sahajmobile.com">
+    <img src="https://img.shields.io/badge/Contact-Email-ff5c93?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sahajmobile&label=Profile+views&color=0ea5e9&style=flat" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/sahajmobile?style=flat&color=6366f1&label=Followers" alt="Followers" />
+</p>
+
+---
+
+### 🏢 About Us
+
+**Sahaj Mobile** ships premium, mobile-first software that powers modern phone retail and field operations.
+We design tools our own teams use every day — fast, opinionated, and built for the long run.
+
+- 🚀 **Mission** — make recovery, sales, and service teams 10× more effective
+- 🛠️ **What we build** — internal CRMs, recovery dashboards, calculators, and phone-data tooling
+- 🌏 **Where we work** — fully remote engineering across Bangladesh & India
+- 🤝 **How we ship** — small teams, fast iterations, premium UX, zero excuses
+
+---
+
+### ✨ Featured Projects
+
+| Project               | Stack                                                                                                                                                                                                                                                                                                | What it is                                                                        | Links                                                                                                   |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **SM Recovery**       | ![React](https://img.shields.io/badge/React-20232a?logo=react) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel) | Premium dark-mode recovery & collections workspace for field agents and managers. | [🔗 Live](https://sm-recovery-gamma.vercel.app) • [💻 Code](https://github.com/sahajmobile/sm-Recovery) |
+| **SM Calculator**     | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Node](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)                                                                                                                      | Pricing & downpayment engine with API-driven schedules for retail teams.          | [💻 Code](https://github.com/sahajmobile/sm-calculator)                                                 |
+| **PhoneData Checker** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)                                                                                                                                                                                                        | Device validation & lookup tooling for the in-store sales flow.                   | [💻 Code](https://github.com/sahajmobile/PhoneData-Checker)                                             |
+| **Homepage**          | ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)                                                                                                                                       | Public marketing site for Sahaj Mobile.                                           | [💻 Code](https://github.com/sahajmobile/homepage)                                                      |
+
+> Want a tour? Ping us — we love showing teams what we've built.
+
+---
+
+### 🛠️ Our Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vite,tailwind,framer,nodejs,express,mongodb,postgres,prisma,redis,graphql,docker,git,github,figma,vercel,aws,nginx,stripe,vitest,jest,playwright,eslint,prettier,pnpm" />
+</p>
+
+<details>
+  <summary><b>Architecture playbook</b></summary>
+
+- **Front-end** — React 18, Next.js, Vite, Tailwind, Framer Motion, Recharts
+- **Back-end** — Node.js, Express, serverless functions on Vercel
+- **Data** — MongoDB, PostgreSQL, Prisma, Redis
+- **Auth & Payments** — JWT, OAuth, HMAC-signed tokens, Stripe
+- **Infra & DevOps** — Vercel, AWS (S3 / CloudFront), Nginx, Docker, GitHub Actions
+- **Quality** — Playwright, Vitest / Jest, ESLint, Prettier, TypeScript strict
+- **Tooling** — PNPM workspaces, Turborepo, Vite, GitHub Projects
+
+</details>
+
+---
+
+### 📈 Org Insights
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sahajmobile&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" alt="stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahajmobile&layout=compact&theme=tokyonight&hide_border=true" height="160" alt="top langs"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sahajmobile&theme=tokyonight&row=1&column=7&no-frame=true&no-bg=true" alt="trophies"/>
+</p>
+
+---
+
+### 🤝 Work With Us
+
+We're always open to talking with **engineers, designers, and partner brands** who care about craft.
+
+<p align="center">
+  <a href="mailto:contact@sahajmobile.com">
+    <img src="https://img.shields.io/badge/Say%20Hello-contact%40sahajmobile.com-0ea5e9?style=for-the-badge&logo=maildotru&logoColor=white" />
+  </a>
+  <a href="https://sahajmobile.com" target="_blank">
+    <img src="https://img.shields.io/badge/Visit-sahajmobile.com-6366f1?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:0ea5e9&height=120&section=footer" />
+</p>
+
+<p align="center"><sub>© Sahaj Mobile — built with care, shipped with speed.</sub></p>

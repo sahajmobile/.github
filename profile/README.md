@@ -76,16 +76,54 @@ We design tools our own teams use every day — fast, opinionated, and built for
 
 ---
 
-### 📈 Org Insights
+### � Pinned Repositories
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sahajmobile&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" alt="stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahajmobile&layout=compact&theme=tokyonight&hide_border=true" height="160" alt="top langs"/>
+  <a href="https://github.com/sahajmobile/sm-Recovery">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=sm-Recovery&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
+  </a>
+  <a href="https://github.com/sahajmobile/sm-calculator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=sm-calculator&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sahajmobile&theme=tokyonight&row=1&column=7&no-frame=true&no-bg=true" alt="trophies"/>
+  <a href="https://github.com/sahajmobile/PhoneData-Checker">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=PhoneData-Checker&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
+  </a>
+  <a href="https://github.com/sahajmobile/homepage">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahajmobile&repo=homepage&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=6366f1" />
+  </a>
 </p>
+
+---
+
+### 🏆 What We Stand For
+
+<table align="center">
+  <tr>
+    <td align="center" width="220">
+      <img src="https://img.icons8.com/fluency/72/rocket.png" width="48"/><br/>
+      <b>Ship Fast</b><br/>
+      <sub>Small teams. Tight loops.<br/>Premium UX every release.</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://img.icons8.com/fluency/72/shield.png" width="48"/><br/>
+      <b>Secure by Default</b><br/>
+      <sub>Server-side auth, HMAC tokens,<br/>encrypted secrets — always.</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://img.icons8.com/fluency/72/design.png" width="48"/><br/>
+      <b>Design-First</b><br/>
+      <sub>Dark, responsive, mobile-first.<br/>If it's ugly, it's not done.</sub>
+    </td>
+    <td align="center" width="220">
+      <img src="https://img.icons8.com/fluency/72/handshake.png" width="48"/><br/>
+      <b>Built for Teams</b><br/>
+      <sub>Tools we use ourselves,<br/>battle-tested in the field.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 

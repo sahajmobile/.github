@@ -44,19 +44,6 @@ We design tools our own teams use every day — fast, opinionated, and built for
 
 ---
 
-### ✨ Featured Projects
-
-| Project               | Stack                                                                                                                                                                                                                                                                                                | What it is                                                                        | Links                                                                                                   |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **SM Recovery**       | ![React](https://img.shields.io/badge/React-20232a?logo=react) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000?logo=vercel) | Premium dark-mode recovery & collections workspace for field agents and managers. | [🔗 Live](https://sm-recovery-gamma.vercel.app) • [💻 Code](https://github.com/sahajmobile/sm-Recovery) |
-| **SM Calculator**     | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Node](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)                                                                                                                      | Pricing & downpayment engine with API-driven schedules for retail teams.          | [💻 Code](https://github.com/sahajmobile/sm-calculator)                                                 |
-| **PhoneData Checker** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)                                                                                                                                                                                                        | Device validation & lookup tooling for the in-store sales flow.                   | [💻 Code](https://github.com/sahajmobile/PhoneData-Checker)                                             |
-| **Homepage**          | ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)                                                                                                                                       | Public marketing site for Sahaj Mobile.                                           | [💻 Code](https://github.com/sahajmobile/homepage)                                                      |
-
-> Want a tour? Ping us — we love showing teams what we've built.
-
----
-
 ### 🛠️ Our Stack
 
 <p align="center">

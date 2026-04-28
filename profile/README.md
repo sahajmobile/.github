@@ -1,6 +1,6 @@
 <!-- ============== PREMIUM HERO ============== -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" alt="Sahaj Mobile" width="100%" />
+  <img src="216649417-9f5b2417-92e7-4408-becd-f88aaae2c7f7.gif" alt="Sahaj Mobile" width="100%" />
 </p>
 
 <!-- ============== GLOWING WORDMARK ============== -->

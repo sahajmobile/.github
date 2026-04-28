@@ -1,6 +1,6 @@
-<!-- ============== MASTERHEAD HERO ============== -->
+<!-- ============== PREMIUM HERO ============== -->
 <p align="center">
-  <img src="https://i.pinimg.com/originals/2f/f4/28/2ff428006f3ade5f10beac69372062ab.gif" alt="Sahaj Mobile MasterHead" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/238200426-29fd6286-4e7b-4d6c-818f-c4765d5e39a9.gif" alt="Sahaj Mobile" width="100%" />
 </p>
 
 <!-- ============== GLOWING WORDMARK ============== -->
